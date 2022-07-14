@@ -1,0 +1,31 @@
+.fon {
+  border: 4px solid darkblue;
+  background-color:#C6B5ED;
+  border-radius: 15px;
+  padding: 10px;
+  grid-template-columns: repeat(4, 1fr);
+  display: grid;
+  grid-gap: 5px;
+  font-weight: bold;  
+}
+
+.fon button {
+  padding: 15px;
+  border-radius: 9px;
+  background-color: #5C61EB;   
+}
+
+.fon textarea {
+  grid-column: span 4;
+  background-color: #A5A8EE;
+  resize: none;
+  padding: 20px 5px 0 5px;
+  height: 45px;
+}
+
+.screen {
+  position: relative;
+  top: 30px;
+  left: 20px;
+  font-size: 12px
+}
